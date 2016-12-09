@@ -1,0 +1,105 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: dropIn 1000ms;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  height: auto;
+  opacity: 0.8;
+  -webkit-transition: opacity 250ms ease-in-out, transform 250ms ease-in-out;
+  -moz-transition: opacity 250ms ease-in-out, transform 250ms ease-in-out;
+  -ms-transition: opacity 250ms ease-in-out, transform 250ms ease-in-out;
+  -o-transition: opacity 250ms ease-in-out, transform 250ms ease-in-out;
+  transition: opacity 250ms ease-in-out, transform 250ms ease-in-out;
+  -webkit-transform-style: preserve-3d;
+  -webkit-transform: rotate(0) scale(0.95);
+  -moz-transform: rotate(0) scale(0.95);
+  transform: rotate(0) scale(0.95);
+  -webkit-backface-visibility: hidden;
+}
+
+.App-header:hover .App-logo {
+  opacity: 1.0;
+  -webkit-transform: rotate(2deg) scale(1.0);
+  -moz-transform: rotate(2deg) scale(1.0);
+  transform: rotate(2deg) scale(1.0);
+}
+
+.App-header {
+  background: #282537;
+  background-image: -webkit-radial-gradient(top, circle cover, #3c3b52 0%, #252233 80%);
+  background-image: -moz-radial-gradient(top, circle cover, #3c3b52 0%, #252233 80%);
+  background-image: -o-radial-gradient(top, circle cover, #3c3b52 0%, #252233 80%);
+  background-image: radial-gradient(top, circle cover, #3c3b52 0%, #252233 80%);
+  height: auto;
+  padding: 20px;
+  color: rgba(255, 255, 255, 0.8);
+  -webkit-transition: color 250ms ease-in-out;
+  -moz-transition: color 250ms ease-in-out;
+  -ms-transition: color 250ms ease-in-out;
+  -o-transition: color 250ms ease-in-out;
+  transition: color 250ms ease-in-out;
+}
+
+.App-header:hover {
+  color: rgba(255, 255, 255, 1.0);
+}
+
+.App-title {
+  animation: fadeIn 2000ms;
+  text-shadow: 2px 2px 2px #000;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.App-links {
+  animation: fadeIn 2200ms;
+  padding: 10px;
+  -webkit-transition: opacity 250ms ease-in-out;
+  -moz-transition: opacity 250ms ease-in-out;
+  -ms-transition: opacity 250ms ease-in-out;
+  -o-transition: opacity 250ms ease-in-out;
+  transition: opacity 250ms ease-in-out;
+  opacity: 0.8;
+  -webkit-transform-style: preserve-3d;
+  -webkit-transform: rotate(0);
+  -moz-transform: rotate(0);
+  transform: rotate(0);
+  -webkit-backface-visibility: hidden;
+}
+
+.App-links:hover {
+  opacity: 1;
+}
+
+@keyframes dropIn {
+  0% {
+    transform: translate3d(0, -1000%, 0) scale(0.95);
+  }
+
+  50% {
+    transform: translate3d(0, -1000%, 0) scale(0.95);
+  }
+
+  100% {
+    transform: translate3d(0, 0, 0) scale(0.95);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
