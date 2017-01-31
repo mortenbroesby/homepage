@@ -1,10 +1,13 @@
 import React, { Component } from 'react'
+
 import polaroid from './gfx/polaroid.png'
 import github from './gfx/github.png'
 import linkedin from './gfx/linkedin.png'
 import twitter from './gfx/twitter.png'
 import instagram from './gfx/instagram.png'
+
 import './App.css'
+
 
 class App extends Component {
   render () {
