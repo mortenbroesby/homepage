@@ -37,7 +37,7 @@ body,
   -webkit-backface-visibility: hidden;
 }
 
-.App-header:hover .App-logo {
+.App-logo:hover {
   opacity: 1.0;
   -webkit-transform: rotate(2deg) scale(1.0);
   -moz-transform: rotate(2deg) scale(1.0);
