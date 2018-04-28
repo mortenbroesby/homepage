@@ -15,7 +15,7 @@ class App extends Component {
       <div className='App'>
         <div className='App-header'>
           <img src={polaroid} className='App-logo' alt='logo' />
-          <h2 className='App-title'>Morten Broesby-Olsen</h2>
+          <h2 className='App-title'>- Morten Broesby-Olsen -</h2>
         </div>
         <p className='App-intro'>
           <a href='https://github.com/mortenbroesby/'>
